@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <author>heiying</author>
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>800</width>
+                <height>600</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralWidget">
+            <widget class="QWidget" name="horizontalLayoutWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>0</y>
+                        <width>781</width>
+                        <height>80</height>
+                    </rect>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout">
+                    <item alignment="Qt::AlignHCenter">
+                        <widget class="QLabel" name="label">
+                            <property name="font">
+                                <font>
+                                    <pointsize>16</pointsize>
+                                    <weight>75</weight>
+                                    <bold>true</bold>
+                                </font>
+                            </property>
+                            <property name="text">
+                                <string>玄武短信发送检测系统</string>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </widget>
+            <widget class="QGroupBox" name="groupBox">
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>90</y>
+                        <width>801</width>
+                        <height>141</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>9</pointsize>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="inputMethodHints">
+                    <set>Qt::ImhNone</set>
+                </property>
+                <property name="title">
+                    <string/>
+                </property>
+                <property name="flat">
+                    <bool>false</bool>
+                </property>
+                <property name="checkable">
+                    <bool>false</bool>
+                </property>
+                <widget class="QPushButton" name="pushButton">
+                    <property name="geometry">
+                        <rect>
+                            <x>20</x>
+                            <y>10</y>
+                            <width>161</width>
+                            <height>51</height>
+                        </rect>
+                    </property>
+                    <property name="font">
+                        <font>
+                            <pointsize>12</pointsize>
+                            <weight>75</weight>
+                            <bold>true</bold>
+                        </font>
+                    </property>
+                    <property name="text">
+                        <string>导入文件</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton" name="pushButton_2">
+                    <property name="geometry">
+                        <rect>
+                            <x>20</x>
+                            <y>83</y>
+                            <width>161</width>
+                            <height>51</height>
+                        </rect>
+                    </property>
+                    <property name="font">
+                        <font>
+                            <pointsize>11</pointsize>
+                            <weight>75</weight>
+                            <bold>true</bold>
+                        </font>
+                    </property>
+                    <property name="text">
+                        <string>开始检测</string>
+                    </property>
+                </widget>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_2">
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>228</y>
+                        <width>801</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="title">
+                    <string/>
+                </property>
+                <widget class="QWidget" name="horizontalLayoutWidget_2">
+                    <property name="geometry">
+                        <rect>
+                            <x>0</x>
+                            <y>0</y>
+                            <width>771</width>
+                            <height>51</height>
+                        </rect>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_2">
+                        <item>
+                            <widget class="QLabel" name="label_3">
+                                <property name="font">
+                                    <font>
+                                        <pointsize>11</pointsize>
+                                    </font>
+                                </property>
+                                <property name="text">
+                                    <string>姓名</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QLabel" name="label_4">
+                                <property name="font">
+                                    <font>
+                                        <pointsize>11</pointsize>
+                                    </font>
+                                </property>
+                                <property name="text">
+                                    <string>电话</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QLabel" name="label_5">
+                                <property name="font">
+                                    <font>
+                                        <pointsize>11</pointsize>
+                                    </font>
+                                </property>
+                                <property name="text">
+                                    <string>发送情况</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QLabel" name="label_6">
+                                <property name="font">
+                                    <font>
+                                        <pointsize>11</pointsize>
+                                    </font>
+                                </property>
+                                <property name="text">
+                                    <string>状态码</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QLabel" name="label_7">
+                                <property name="font">
+                                    <font>
+                                        <pointsize>11</pointsize>
+                                    </font>
+                                </property>
+                                <property name="text">
+                                    <string>状态码说明</string>
+                                </property>
+                            </widget>
+                        </item>
+                    </layout>
+                </widget>
+            </widget>
+            <widget class="QTextBrowser" name="textBrowser">
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>280</y>
+                        <width>801</width>
+                        <height>321</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_3">
+                <property name="geometry">
+                    <rect>
+                        <x>240</x>
+                        <y>340</y>
+                        <width>112</width>
+                        <height>34</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>PushButton</string>
+                </property>
+            </widget>
+        </widget>
+    </widget>
+    <resources>
+        <include location="py/img.qrc"/>
+    </resources>
+    <connections/>
+    <designerdata>
+        <property name="gridDeltaX">
+            <number>10</number>
+        </property>
+        <property name="gridDeltaY">
+            <number>10</number>
+        </property>
+        <property name="gridSnapX">
+            <bool>true</bool>
+        </property>
+        <property name="gridSnapY">
+            <bool>true</bool>
+        </property>
+        <property name="gridVisible">
+            <bool>true</bool>
+        </property>
+    </designerdata>
+</ui>
